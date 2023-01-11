@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>PreEntrega3</title>
+    </head>
+    <body>
+        <head>
+            <h1 class="title">ELEGI TUS PRODUCTOS PARA LAS FIESTAS</h1>
+        </head>
+        <nav>
+            <button id="btnProducts" class="options">PRODUCTOS</button>
+            <button id="btnCart" class="options">CARRITO</button>
+        </nav>       
+        <div id="products">
+        </div>
+        <div id="cart">
+            <div class="cart-container">
+                <div class="cart-title">
+                    <h1>TU PEDIDO</h1>
+                </div>
+                <div>
+                    <button class="btn btn-vaciar" onclick="vaciarCarrito()">
+                        <span>Vaciar Carrito</span>
+                    </button>
+                </div>
+                <div class="cart-details">
+                    <table id="tabla-cart">
+                        <tr>
+                            <th> Nombre Articulo </th>
+                            <th> Cantidad </th>
+                            <th> Precio Unitario</th>
+                            <th> Subtotal </th>
+                            <th> Acciones</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
